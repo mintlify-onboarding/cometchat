@@ -35,7 +35,150 @@
   ],
   "navigation": [
     {
-      "group": "",
+      "group": "Quick Start",
+      "pages": [
+        {
+          "group": "React",
+          "pages": [
+            "quick-start/react/overview",
+            "quick-start/react/ui",
+            "quick-start/react/customize-ui",
+            "quick-start/react/integration-next-js"
+          ]
+        },
+        {
+          "group": "Angular",
+          "pages": [
+            "quick-start/angular/overview",
+            "quick-start/angular/ui-components"
+          ]
+        },
+        {
+          "group": "Vue",
+          "pages": [
+            "quick-start/vue/overview",
+            "quick-start/vue/ui-components",
+            "quick-start/vue/customize-ui"
+          ]
+        },
+        {
+          "group": "React Native",
+          "pages": [
+            "quick-start/react-native/overview",
+            "quick-start/react-native/ui-components",
+            "quick-start/react-native/customize-ui"
+          ]
+        },
+        {
+          "group": "iOS",
+          "pages": [
+            "quick-start/ios/overview",
+            "quick-start/ios/ui-components",
+            "quick-start/ios/customize-ui"
+          ]
+        },
+        {
+          "group": "Android Java",
+          "pages": [
+            "quick-start/android-java/overview",
+            "quick-start/android-java/ui-components",
+            "quick-start/android-java/customize-ui",
+            "quick-start/android-java/library-structure"
+          ]
+        },
+        {
+          "group": "Android Kotlin",
+          "pages": [
+            "quick-start/android-kotlin/overview",
+            "quick-start/android-kotlin/ui-components",
+            "quick-start/android-kotlin/customize-ui"
+          ]
+        },
+        {
+          "group": "Ionic CordovaCapacitor",
+          "pages": [
+            "quick-start/ionic-cordova-capacitor/overview",
+            "quick-start/ionic-cordova-capacitor/setup",
+            "quick-start/ionic-cordova-capacitor/authentication",
+            "quick-start/ionic-cordova-capacitor/messaging",
+            "quick-start/ionic-cordova-capacitor/calling",
+            "quick-start/ionic-cordova-capacitor/users",
+            "quick-start/ionic-cordova-capacitor/user-presence",
+            "quick-start/ionic-cordova-capacitor/groups",
+            "quick-start/ionic-cordova-capacitor/bots",
+            "quick-start/ionic-cordova-capacitor/webhooks",
+            "quick-start/ionic-cordova-capacitor/resources",
+            "quick-start/ionic-cordova-capacitor/advanced"
+          ]
+        },
+        {
+          "group": "Flutter",
+          "pages": [
+            "quick-start/flutter/overview",
+            "quick-start/flutter/setup",
+            "quick-start/flutter/authentication",
+            "quick-start/flutter/messaging",
+            "quick-start/flutter/users",
+            "quick-start/flutter/user-presence",
+            "quick-start/flutter/groups",
+            "quick-start/flutter/resources",
+            "quick-start/flutter/advanced"
+          ]
+        },
+        {
+          "group": "Wordpress",
+          "pages": ["quick-start/wordpress/overview"]
+        },
+        {
+          "group": "PHP",
+          "pages": ["quick-start/php/overview"]
+        },
+        {
+          "group": "Laravel",
+          "pages": ["quick-start/laravel/overview"]
+        }
+      ]
+    },
+    {
+      "group": "Integration Methods",
+      "pages": [
+        {
+          "group": "Chat Widgets",
+          "pages": [
+            "integration-methods/overview",
+            "integration-methods/web",
+            "integration-methods/wordpress",
+            "integration-methods/custom"
+          ]
+        },
+        {
+          "group": "Chat UI Kits",
+          "pages": [""]
+        },
+        {
+          "group": "Chat SDKs",
+          "pages": [""]
+        }
+      ]
+    },
+    {
+      "group": "Extensions",
+      "pages": [""]
+    },
+    {
+      "group": "APIs",
+      "pages": [""]
+    },
+    {
+      "group": "Webhooks",
+      "pages": [""]
+    },
+    {
+      "group": "Bots",
+      "pages": [""]
+    },
+    {
+      "group": "On-Premise",
       "pages": [""]
     }
   ],
