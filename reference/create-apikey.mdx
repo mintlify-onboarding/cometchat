@@ -1,5 +1,26 @@
 ---
-title: "Create"
+title: "Create API Key"
+sidebarTitle: "Create"
 description: "Creates a new API key"
+api: "POST https://appId.api-region.cometchat.io/v3/apikeys"
 ---
 
+### Body parameters
+
+<ParamField body="name" type="string" required>
+  Friendly name for the API key.
+</ParamField>
+
+<ParamField body="scope" type="string" default="authOnly" required>
+  Scope for the API key. Possible values: `userauth`, `admin`.
+</ParamField>
+
+### Response
+
+<Tab title= "🟢 200">
+
+<ResponseField name="data" type="object">
+  Response data
+</ResponseField>
+
+</Tab>
