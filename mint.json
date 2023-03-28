@@ -23,6 +23,11 @@
   ],
   "anchors": [
     {
+      "name": "API Reference",
+      "icon": "square-terminal",
+      "url": "https://api-explorer.cometchat.com/reference/create-apikey"
+    },
+    {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://www.cometchat.com/blog"
@@ -153,33 +158,126 @@
         },
         {
           "group": "Chat UI Kits",
-          "pages": [""]
+          "pages": [
+            "integration-methods/chat-ui-kits/react",
+            "integration-methods/chat-ui-kits/angular",
+            "integration-methods/chat-ui-kits/vue",
+            "integration-methods/chat-ui-kits/react-native",
+            "integration-methods/chat-ui-kits/ios-swift",
+            "integration-methods/chat-ui-kits/android-java",
+            "integration-methods/chat-ui-kits/android-kotlin"
+          ]
         },
         {
           "group": "Chat SDKs",
-          "pages": [""]
+          "pages": [
+            "integration-methods/chat-skds/javascript",
+            "integration-methods/chat-skds/android",
+            "integration-methods/chat-skds/ios",
+            "integration-methods/chat-skds/react-native",
+            "integration-methods/chat-skds/ionic-cordova-capacitor",
+            "integration-methods/chat-skds/flutter"
+          ]
         }
       ]
     },
     {
       "group": "Extensions",
-      "pages": [""]
-    },
-    {
-      "group": "APIs",
-      "pages": [""]
+      "pages": [
+        {
+          "group": "User Experience",
+          "pages": [
+            "extensions/user-experience/pin-message",
+            "extensions/user-experience/bitly",
+            "extensions/user-experience/avatars",
+            "extensions/user-experience/message-shortcuts",
+            "extensions/user-experience/link-preview",
+            "extensions/user-experience/rich-media-preview",
+            "extensions/user-experience/save-message",
+            "extensions/user-experience/thumbnail-generation",
+            "extensions/user-experience/tiny-url",
+            "extensions/user-experience/voice-transcription"
+          ]
+        },
+        {
+          "group": "User Engagement",
+          "pages": [
+            "extensions/user-engagement/email-replies",
+            "extensions/user-engagement/polls",
+            "extensions/user-engagement/gfycat",
+            "extensions/user-engagement/giphy",
+            "extensions/user-engagement/mentions",
+            "extensions/user-engagement/message-translation",
+            "extensions/user-engagement/reactions",
+            "extensions/user-engagement/smart-reply",
+            "extensions/user-engagement/stickers",
+            "extensions/user-engagement/stipop",
+            "extensions/user-engagement/enor",
+            "extensions/user-engagement/reminders",
+            "extensions/user-engagement/live-streaming"
+          ]
+        },
+        {
+          "group": "Collaboration",
+          "pages": [
+            "extensions/collaboration/collaborative-document",
+            "extensions/collaboration/dollaborative-whiteboard"
+          ]
+        },
+        {
+          "group": "Customer Support",
+          "pages": [
+            "extensions/customer-support/intercom",
+            "extensions/customer-support/chatwoot"
+          ]
+        },
+        {
+          "group": "Live Migration",
+          "pages": ["extensions/live-migration/applozic"]
+        },
+        {
+          "group": "Notifications",
+          "pages": [
+            "extensions/notifications/email-notification",
+            "extensions/notifications/sms-notification",
+            "extensions/notifications/push-notification"
+          ]
+        },
+        {
+          "group": "Moderation",
+          "pages": [
+            "extentions/moderation/slow-down",
+            "extentions/moderation/report-user",
+            "extentions/moderation/report-message",
+            "extentions/moderation/in-flight-message-moderation",
+            "extentions/moderation/image-moderation",
+            "extentions/moderation/virus-and-malaware-scanner",
+            "extentions/moderation/data-masking",
+            "extentions/moderation/profanity-filter",
+            "extentions/moderation/sentiment-analysis",
+            "extentions/moderation/xss-filter"
+          ]
+        },
+        {
+          "group": "Security",
+          "pages": [
+            "extensions/security/disappearing-messages",
+            "extensions/security/end-to-end-encryption"
+          ]
+        }
+      ]
     },
     {
       "group": "Webhooks",
-      "pages": [""]
+      "pages": ["webhooks/overview"]
     },
     {
       "group": "Bots",
-      "pages": [""]
+      "pages": ["bots/overview"]
     },
     {
       "group": "On-Premise",
-      "pages": [""]
+      "pages": ["on-premise/introduction", "on-premise/docker"]
     }
   ],
   "footerSocials": {
