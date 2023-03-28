@@ -46,6 +46,7 @@
           "group": "React",
           "pages": [
             "quick-start/react/overview",
+            "quick-start/react/key-concepts",
             "quick-start/react/ui",
             "quick-start/react/customize-ui",
             "quick-start/react/integration-next-js"
@@ -150,16 +151,25 @@
         {
           "group": "Chat Widgets",
           "pages": [
-            "integration-methods/overview",
-            "integration-methods/web",
-            "integration-methods/wordpress",
-            "integration-methods/custom"
+            "integration-methods/chat-widgets/overview",
+            "integration-methods/chat-widgets/web",
+            "integration-methods/chat-widgets/wordpress",
+            "integration-methods/chat-widgets/custom"
           ]
         },
         {
           "group": "Chat UI Kits",
           "pages": [
-            "integration-methods/chat-ui-kits/react",
+            {
+              "group": "React",
+              "pages": [
+                "quick-start/react/overview",
+                "quick-start/react/key-concepts",
+                "quick-start/react/ui",
+                "quick-start/react/customize-ui",
+                "quick-start/react/integration-next-js"
+              ]
+            },
             "integration-methods/chat-ui-kits/angular",
             "integration-methods/chat-ui-kits/vue",
             "integration-methods/chat-ui-kits/react-native",
@@ -171,12 +181,12 @@
         {
           "group": "Chat SDKs",
           "pages": [
-            "integration-methods/chat-skds/javascript",
-            "integration-methods/chat-skds/android",
-            "integration-methods/chat-skds/ios",
-            "integration-methods/chat-skds/react-native",
-            "integration-methods/chat-skds/ionic-cordova-capacitor",
-            "integration-methods/chat-skds/flutter"
+            "integration-methods/chat-sdks/javascript",
+            "integration-methods/chat-sdks/android",
+            "integration-methods/chat-sdks/ios",
+            "integration-methods/chat-sdks/react-native",
+            "integration-methods/chat-sdks/ionic-cordova-capacitor",
+            "integration-methods/chat-sdks/flutter"
           ]
         }
       ]
