@@ -25,17 +25,17 @@
     {
       "name": "API Reference",
       "icon": "square-terminal",
-      "url": "https://api-explorer.cometchat.com/reference/create-apikey"
+      "url": "reference"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/cometchat-pro"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://www.cometchat.com/blog"
-    },
-    {
-      "name": "Contact Support",
-      "icon": "comments",
-      "url": "https://help.cometchat.com/hc/en-us"
     }
   ],
   "navigation": [
@@ -246,16 +246,16 @@
         {
           "group": "Moderation",
           "pages": [
-            "extentions/moderation/slow-down",
-            "extentions/moderation/report-user",
-            "extentions/moderation/report-message",
-            "extentions/moderation/in-flight-message-moderation",
-            "extentions/moderation/image-moderation",
-            "extentions/moderation/virus-and-malaware-scanner",
-            "extentions/moderation/data-masking",
-            "extentions/moderation/profanity-filter",
-            "extentions/moderation/sentiment-analysis",
-            "extentions/moderation/xss-filter"
+            "extensions/moderation/slow-down",
+            "extensions/moderation/report-user",
+            "extensions/moderation/report-message",
+            "extensions/moderation/in-flight-message-moderation",
+            "extensions/moderation/image-moderation",
+            "extensions/moderation/virus-and-malaware-scanner",
+            "extensions/moderation/data-masking",
+            "extensions/moderation/profanity-filter",
+            "extensions/moderation/sentiment-analysis",
+            "extensions/moderation/xss-filter"
           ]
         },
         {
@@ -278,6 +278,350 @@
     {
       "group": "On-Premise",
       "pages": ["on-premise/introduction", "on-premise/docker"]
+    },
+    {
+      "group": "Chat APIs",
+      "pages": [
+        {
+          "group": "API Keys",
+          "pages": [
+            "reference/create-apikey",
+            "reference/list-apikeys",
+            "reference/get-apikey",
+            "reference/update-apikey",
+            "reference/delete-apikey"
+          ]
+        },
+        {
+          "group": "Users",
+          "pages": [
+            "reference/creates-user",
+            "reference/list-users",
+            "reference/reactivate-users",
+            "reference/deactivate-users",
+            "reference/get-user",
+            "reference/update-user",
+            "reference/delete-user"
+          ]
+        },
+        {
+          "group": "Roles",
+          "pages": [
+            "reference/create-role",
+            "reference/list-roles",
+            "reference/get-role",
+            "reference/update-role",
+            "reference/delete-role"
+          ]
+        },
+        {
+          "group": "Restrict Features",
+          "pages": [
+            "reference/restrict-features",
+            "reference/restrict-features-1",
+            "reference/get-restrictedfeatures",
+            "reference/allow-features"
+          ]
+        },
+        {
+          "group": "Auth Tokens",
+          "pages": [
+            "reference/create-authtoken",
+            "reference/list-authtokens",
+            "reference/flush-authtokens",
+            "reference/get-authtoken",
+            "reference/update-authtoken",
+            "reference/delete-authtoken"
+          ]
+        },
+        {
+          "group": "Groups",
+          "pages": [
+            "reference/create-group",
+            "reference/list-groups",
+            "reference/get-group",
+            "reference/update-group",
+            "reference/delete-group"
+          ]
+        },
+        {
+          "group": "Banned Users",
+          "pages": [
+            "reference/ban-group-user",
+            "reference/unban-group-user",
+            "reference/list-banned-group-users"
+          ]
+        },
+        {
+          "group": "Group Members",
+          "pages": [
+            "reference/add-group-members",
+            "reference/list-group-members",
+            "reference/change-group-member-scope",
+            "reference/kick-group-member"
+          ]
+        },
+        {
+          "group": "Friends",
+          "pages": [
+            "reference/add-friend",
+            "reference/list-all-friends",
+            "reference/remove-friend"
+          ]
+        },
+        {
+          "group": "Blocked Users",
+          "pages": [
+            "reference/post_users-uid-blockedusers",
+            "reference/delete_users-uid-blockedusers",
+            "reference/get_users-uid-blockedusers"
+          ]
+        },
+        {
+          "group": "Messages",
+          "pages": [
+            "reference/send-message",
+            "reference/list-all-messages",
+            "reference/get-message-details",
+            "reference/update-message",
+            "reference/deletes-message",
+            "reference/send-thread-message",
+            "reference/list-all-thread-messages",
+            "reference/user-list-user-messages",
+            "reference/user-list-group-messages",
+            "reference/sends-bot-message"
+          ]
+        },
+        {
+          "group": "Conversations",
+          "pages": [
+            "reference/list-all-conversations",
+            "reference/get-conversation",
+            "reference/deletes-conversation",
+            "reference/get-user-conversations",
+            "reference/updates-user-conversation",
+            "reference/resets-user-conversation",
+            "reference/mark-conversation-as-delivered",
+            "reference/mark-conversation-as-read",
+            "reference/get-group-conversations",
+            "reference/updates-group-conversation",
+            "reference/resets-group-conversation",
+            "reference/mark-group-conversation-as-delivered",
+            "reference/mark-group-conversation-as-read"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "App Management APIs",
+      "pages": [
+        {
+          "group": "App",
+          "pages": [
+            "reference/create-app",
+            "reference/list-apps",
+            "reference/delete-app"
+          ]
+        },
+        {
+          "group": "Extensions",
+          "pages": [
+            "reference/enable-disable-extensions",
+            "reference/get_apps-appid-extensions"
+          ]
+        },
+        {
+          "group": "Chat Widgets",
+          "pages": [
+            "reference/create-chatwidget",
+            "reference/update-chatwidget",
+            "reference/list-chatwidgets"
+          ]
+        },
+        {
+          "group": "Extension - Giphy",
+          "pages": [
+            "reference/store-settings-giphy",
+            "reference/update-settings-giphy",
+            "reference/get-settings-giphy",
+            "reference/delete-settings-giphy"
+          ]
+        },
+        {
+          "group": "Extension - XSS Filter",
+          "pages": [
+            "reference/store-settings-xss-filter",
+            "reference/update-settings-xss-filter",
+            "reference/get-settings-xss-filter",
+            "reference/delete-settings-xss-filter"
+          ]
+        },
+        {
+          "group": "Extension - Image Moderation",
+          "pages": [
+            "reference/store-settings-image-moderation",
+            "reference/update-settings-image-moderation",
+            "reference/get-settings-image-moderation",
+            "reference/delete-settings-image-moderation"
+          ]
+        },
+        {
+          "group": "Extension - Report user",
+          "pages": [
+            "reference/store-settings-report-user",
+            "reference/update-settings-report-user",
+            "reference/get-settings-report-user",
+            "reference/delete-settings-report-user"
+          ]
+        },
+        {
+          "group": "Extension - Report message",
+          "pages": [
+            "reference/store-settings-report-message",
+            "reference/update-settings-report-message",
+            "reference/get-settings-report-message",
+            "reference/delete-settings-report-message"
+          ]
+        },
+        {
+          "group": "Extension - Voice transcription",
+          "pages": [
+            "reference/store-settings-voice-transcription",
+            "reference/update-settings-voice-transcription",
+            "reference/get-settings-voice-transcription",
+            "reference/delete-settings-voice-transcription"
+          ]
+        },
+        {
+          "group": "Extension - Stipop",
+          "pages": [
+            "reference/store-settings-stipop",
+            "reference/update-settings-stipop",
+            "reference/get-settings-stipop",
+            "reference/delete-settings-stipop"
+          ]
+        },
+        {
+          "group": "Extension - Sentiment analysis",
+          "pages": [
+            "reference/store-settings-sentiment-analysis",
+            "reference/update-settings-sentiment-analysis",
+            "reference/get-settings-sentiment-analysis",
+            "reference/delete-settings-sentiment-analysis"
+          ]
+        },
+        {
+          "group": "Extension - TinyURL",
+          "pages": [
+            "reference/store-settings-tinyurl",
+            "reference/update-settings-tinyurl",
+            "reference/get-settings-tinyurl",
+            "reference/delete-settings-tinyurl"
+          ]
+        },
+        {
+          "group": "Extension - Intercom",
+          "pages": [
+            "reference/store-settings-intercom",
+            "reference/update-settings-intercom",
+            "reference/get-settings-intercom",
+            "reference/delete-settings-intercom"
+          ]
+        },
+        {
+          "group": "Extension - Bitly",
+          "pages": [
+            "reference/store-settings-bitly",
+            "reference/update-settings-bitly",
+            "reference/get-settings-bitly",
+            "reference/delete-settings-bitly"
+          ]
+        },
+        {
+          "group": "Extension - Rich media preview",
+          "pages": [
+            "reference/store-settings-rich-media",
+            "reference/update-settings-rich-media",
+            "reference/get-settings-rich-media",
+            "reference/delete-settings-rich-media"
+          ]
+        },
+        {
+          "group": "Extension - Virus Malware Scanner",
+          "pages": [
+            "reference/store-settings-virus-malware-scanner",
+            "reference/update-settings-virus-malware-scanner",
+            "reference/get-settings-virus-malware-scanner",
+            "reference/delete-settings-virus-malware-scanner"
+          ]
+        },
+        {
+          "group": "Extension - Video Broadcasting",
+          "pages": [
+            "reference/store-settings-broadcast",
+            "reference/update-settings-broadcast",
+            "reference/get-settings-broadcast",
+            "reference/delete-settings-broadcast"
+          ]
+        },
+        {
+          "group": "Extension - Tenor gifs",
+          "pages": [
+            "reference/post_apps-appid-extensions-gifs-tenor-v1-settings",
+            "reference/put_apps-appid-extensions-gifs-tenor-v1-settings",
+            "reference/get_apps-appid-extensions-gifs-tenor-v1-settings",
+            "reference/delete_apps-appid-extensions-gifs-tenor-v1-settings"
+          ]
+        },
+        {
+          "group": "Extension - In-flight message moderation",
+          "pages": [
+            "reference/post_apps-appid-extensions-human-moderation-v1-settings",
+            "reference/put_apps-appid-extensions-human-moderation-v1-settings",
+            "reference/get_apps-appid-extensions-human-moderation-v1-settings",
+            "reference/delete_apps-appid-extensions-human-moderation-v1-settings"
+          ]
+        },
+        {
+          "group": "Extension - End-to-end encryption",
+          "pages": [
+            "reference/post_apps-appid-extensions-e2ee-v1-settings",
+            "reference/put_apps-appid-extensions-e2ee-v1-settings",
+            "reference/get_apps-appid-extensions-e2ee-v1-settings",
+            "reference/delete_apps-appid-extensions-e2ee-v1-settings"
+          ]
+        },
+        {
+          "group": "Team Management",
+          "pages": [
+            "reference/add-remove-collaborators",
+            "reference/list-collaborators"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Import APIs",
+      "pages": [
+        {
+          "group": "Data Import",
+          "pages": [
+            "reference/import-messages",
+            "reference/import-users",
+            "reference/import-groups",
+            "reference/import-members"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Analytics APIs",
+      "pages": [
+        {
+          "group": "Metrics",
+          "pages": ["reference/usage-metrics"]
+        }
+      ]
     }
   ],
   "footerSocials": {
