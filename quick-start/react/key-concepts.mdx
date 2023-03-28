@@ -127,22 +127,23 @@ intentionally leave the group.
 
 CometChat supports three different types of member scopes in a group:
 
-| Member                                      | Default                                                             | Privileges                                                                                                                                |
-| ------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Admin Group creator is assigned Admin scope | - Change scope of Group Members to admin, moderator or participant. | - Can add members to a group. - Kick & Ban Participants/Moderators/Admins - Send & Receive Messages & Calls - Update group - Delete group |
-| Moderator                                   | -                                                                   | - Change scope of moderator or participant - Update group - Kick & Ban Participants - Send & Receive Messages & Calls                     |
-| Participant                                 | Any other user is assigned Participant scope                        | Send & Receive Messages & Calls                                                                                                           |
+| Member                                      | Default                                                             | Privileges                                                                                                                                                        |
+| ------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Admin Group creator is assigned Admin scope | - Change scope of Group Members to admin, moderator or participant. | - Can add members to a group. <br/> - Kick & Ban Participants/Moderators/Admins <br/> - Send & Receive Messages & Calls <br/> - Update group <br/> - Delete group |
+| Moderator                                   | -                                                                   | - Change scope of moderator or participant <br/> - Update group <br/> - Kick & Ban Participants <br/> - Send & Receive Messages & Calls                           |
+| Participant                                 | Any other user is assigned Participant scope                        | Send & Receive Messages & Calls                                                                                                                                   |
 
 ### Messaging
 
 Any message in CometChat can belong to either one of the below categories
 
 | Category | Description                                                                                                                                                                                                                                  |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| message  | Any message belonging to the category message can belong to either one of the below types:                                                                                                                                                   | 1. text 2. image 3. video 4. audio 5. file                                                                             |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| message  | Any message belonging to the category message can belong to either one of the below types: <br/> 1. text <br/> 2. image <br/> 3. video <br/> 4. audio <br/> 5. file                                                                          |
 | custom   | Custom messages are an option available for developers to send custom data across to users/groups. To send any additional data that does not fit in the default categories and types provided by CometChat, you can use the custom messages. |
-| action   | Action messages are system-generated messages. These can belong to either of the below types:                                                                                                                                                | 1. groupMember - when the action is performed on a group member 2. message - when the action is performed on a message |
-| call     | These are call-related messages. These can belong to either one of the two types:                                                                                                                                                            | 1. audio 2. video                                                                                                      |
+| action   | Action messages are system-generated messages. These can belong to either of the below types:<br/> 1. groupMember - when the action is performed on a group member <br/> 2. message - when the action is performed on a message              |
+| call     | These are call-related messages. These can belong to either one of the two types: <br/> 1. audio <br/> 2. video                                                                                                                              |
 
-For more information, you can refer to the Message structure and hierarchy
+For more information, you can refer to the
+[Message structure and hierarchy](https://www.cometchat.com/docs/more/overview-message-structure-and-hierarchy)
 guide.
