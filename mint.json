@@ -181,7 +181,31 @@
         {
           "group": "Chat SDKs",
           "pages": [
-            "integration-methods/chat-sdks/javascript",
+            {
+              "group": "Javascript SDK",
+              "pages": [
+                {
+                  "group": "Overview",
+                  "pages": [
+                    "integration-methods/chat-sdks/javascript/overview/overview",
+                    "integration-methods/chat-sdks/javascript/overview/key-concepts",
+                    "integration-methods/chat-sdks/javascript/overview/message-structure",
+                    "integration-methods/chat-sdks/javascript/overview/rate-limits"
+                  ]
+                },
+                "integration-methods/chat-sdks/javascript/setup",
+                "integration-methods/chat-sdks/javascript/authentication",
+                "integration-methods/chat-sdks/javascript/messaging",
+                "integration-methods/chat-sdks/javascript/calling",
+                "integration-methods/chat-sdks/javascript/users",
+                "integration-methods/chat-sdks/javascript/uder-presence",
+                "integration-methods/chat-sdks/javascript/groups",
+                "integration-methods/chat-sdks/javascript/bots",
+                "integration-methods/chat-sdks/javascript/webhooks",
+                "integration-methods/chat-sdks/javascript/resources",
+                "integration-methods/chat-sdks/javascript/advanced"
+              ]
+            },
             "integration-methods/chat-sdks/android",
             "integration-methods/chat-sdks/ios",
             "integration-methods/chat-sdks/react-native",
