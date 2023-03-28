@@ -1,0 +1,50 @@
+{
+  "name": "Cometchat",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#6929CA",
+    "light": "#F3A8BB",
+    "dark": "#292A2C",
+    "anchors": { "from": "#8E4EEF", "to": "#5213B2" }
+  },
+  "topbarCtaButton": {
+    "name": "Contact Sales",
+    "url": "https://www.cometchat.com/contact-sales"
+  },
+  "topbarLinks": [
+    {
+      "name": "Sign In",
+      "url": "https://app.cometchat.com/login"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://www.cometchat.com/blog"
+    },
+    {
+      "name": "Contact Support",
+      "icon": "comments",
+      "url": "https://help.cometchat.com/hc/en-us"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": [""]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/CometChat",
+    "linkedin": "https://www.linkedin.com/company/cometchat/",
+    "facebook": "https://www.facebook.com/CometChat/",
+    "youtube": "https://www.youtube.com/c/CometChat",
+    "github": "https://github.com/cometchat-pro",
+    "website": "https://www.cometchat.com/"
+  }
+}
