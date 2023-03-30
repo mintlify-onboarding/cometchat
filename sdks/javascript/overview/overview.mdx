@@ -108,40 +108,32 @@ export default function Home() {
   return(
     libraryImported ? <Chat/> : <p>Loading....</p>
   )
-
 }
 ```
 
 ```js Home.js (Class Component)
 import React from 'react';
 import Chat from './Chat';
-
 export default class Home extends React.Component  {
-
   constructor(props) {
     super(props);
     this.state = {
       libraryImported: false
     };
   }
-
   componentDidMount(){
     CometChat = require("@cometchat-pro/chat").CometChat;
     this.setState({libraryImported: true});
   }
-
   return(
     this.state.libraryImported ? <Chat/> : <p>Loading....</p>
   )
-
 }
 ```
 
 ```js Chat.js
 import React, { Component } from "react";
-
 import { COMETCHAT_CONSTANTS } from "./CONSTS";
-
 export default class Chat extends Component {
   constructor(props) {
     super(props);
@@ -149,11 +141,9 @@ export default class Chat extends Component {
       user: undefined,
     };
   }
-
   componentDidMount() {
     this.init();
   }
-
   init() {
     CometChat.init(
       COMETCHAT_CONSTANTS.APP_ID,
@@ -170,7 +160,6 @@ export default class Chat extends Component {
       }
     );
   }
-
   login() {
     let UID = "UID";
     CometChat.login(UID, COMETCHAT_CONSTANTS.AUTH_KEY).then(
@@ -182,7 +171,6 @@ export default class Chat extends Component {
       }
     );
   }
-
   render() {
     return this.state.user ? (
       <div>User logged in</div>
@@ -242,10 +230,8 @@ export default {
   <div v-if="user">User logged in</div>
   <div v-else>User not logged in</div>
 </template>
-
 <script>
 import CONSTS from "./CONSTS";
-
 export default {
   name: "chat",
   data() {
@@ -399,11 +385,8 @@ CometChat.createUser(user, authKey).then(
 let authKey: string = "AUTH_KEY",
   UID: string = "user1",
   name: string = "Kevin";
-
 var user = new CometChat.User(UID);
-
 user.setName(name);
-
 CometChat.createUser(user, authKey).then(
   (user: CometChat.User) => {
     console.log("user created", user);
@@ -451,7 +434,6 @@ CometChat.getLoggedinUser().then(
 ```ts Typescript
 var UID: string = "SUPERHERO1",
   authKey: string = "AUTH_KEY";
-
 CometChat.getLoggedinUser().then(
   (user: CometChat.User) => {
     if (!user) {
