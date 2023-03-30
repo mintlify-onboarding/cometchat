@@ -7,312 +7,210 @@
   "versions": ["v3", "v2"],
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#6929CA",
-    "light": "#F3A8BB",
-    "dark": "#292A2C",
-    "anchors": { "from": "#8E4EEF", "to": "#5213B2" }
+    "primary": "#6729c8",
+    "light": "#ff5f6e",
+    "dark": "#491c8c"
   },
   "topbarCtaButton": {
-    "name": "Contact Sales",
-    "url": "https://www.cometchat.com/contact-sales"
+    "name": "Try for Free",
+    "url": "https://app.cometchat.com/signup"
   },
   "topbarLinks": [
     {
-      "name": "Sign In",
-      "url": "https://app.cometchat.com/login"
+      "name": "Help Center",
+      "url": "https://help.cometchat.com/hc/en-us"
     }
   ],
+  "topAnchor": {
+    "name": "UI Kits"
+  },
   "anchors": [
+    {
+      "name": "SDKs",
+      "icon": "github",
+      "url": "sdks"
+    },
     {
       "name": "API Reference",
       "icon": "square-terminal",
       "url": "reference"
     },
     {
-      "name": "GitHub",
-      "icon": "github",
-      "url": "https://github.com/cometchat-pro"
-    },
-    {
-      "name": "Blog",
+      "name": "Extensions",
       "icon": "newspaper",
-      "url": "https://www.cometchat.com/blog"
+      "url": "extensions"
     }
   ],
   "navigation": [
     {
-      "group": "Quick Start",
+      "group": "React",
       "pages": [
-        {
-          "group": "React",
-          "pages": [
-            "quick-start/react/overview",
-            "quick-start/react/key-concepts",
-            "quick-start/react/ui",
-            "quick-start/react/customize-ui",
-            "quick-start/react/integration-next-js"
-          ]
-        },
-        {
-          "group": "Angular",
-          "pages": [
-            "quick-start/angular/overview",
-            "quick-start/angular/ui-components"
-          ]
-        },
-        {
-          "group": "Vue",
-          "pages": [
-            "quick-start/vue/overview",
-            "quick-start/vue/ui-components",
-            "quick-start/vue/customize-ui"
-          ]
-        },
-        {
-          "group": "React Native",
-          "pages": [
-            "quick-start/react-native/overview",
-            "quick-start/react-native/ui-components",
-            "quick-start/react-native/customize-ui"
-          ]
-        },
-        {
-          "group": "iOS",
-          "pages": [
-            "quick-start/ios/overview",
-            "quick-start/ios/ui-components",
-            "quick-start/ios/customize-ui"
-          ]
-        },
-        {
-          "group": "Android Java",
-          "pages": [
-            "quick-start/android-java/overview",
-            "quick-start/android-java/ui-components",
-            "quick-start/android-java/customize-ui",
-            "quick-start/android-java/library-structure"
-          ]
-        },
-        {
-          "group": "Android Kotlin",
-          "pages": [
-            "quick-start/android-kotlin/overview",
-            "quick-start/android-kotlin/ui-components",
-            "quick-start/android-kotlin/customize-ui"
-          ]
-        },
-        {
-          "group": "Ionic CordovaCapacitor",
-          "pages": [
-            "quick-start/ionic-cordova-capacitor/overview",
-            "quick-start/ionic-cordova-capacitor/setup",
-            "quick-start/ionic-cordova-capacitor/authentication",
-            "quick-start/ionic-cordova-capacitor/messaging",
-            "quick-start/ionic-cordova-capacitor/calling",
-            "quick-start/ionic-cordova-capacitor/users",
-            "quick-start/ionic-cordova-capacitor/user-presence",
-            "quick-start/ionic-cordova-capacitor/groups",
-            "quick-start/ionic-cordova-capacitor/bots",
-            "quick-start/ionic-cordova-capacitor/webhooks",
-            "quick-start/ionic-cordova-capacitor/resources",
-            "quick-start/ionic-cordova-capacitor/advanced"
-          ]
-        },
-        {
-          "group": "Flutter",
-          "pages": [
-            "quick-start/flutter/overview",
-            "quick-start/flutter/setup",
-            "quick-start/flutter/authentication",
-            "quick-start/flutter/messaging",
-            "quick-start/flutter/users",
-            "quick-start/flutter/user-presence",
-            "quick-start/flutter/groups",
-            "quick-start/flutter/resources",
-            "quick-start/flutter/advanced"
-          ]
-        },
-        {
-          "group": "Wordpress",
-          "pages": ["quick-start/wordpress/overview"]
-        },
-        {
-          "group": "PHP",
-          "pages": ["quick-start/php/overview"]
-        },
-        {
-          "group": "Laravel",
-          "pages": ["quick-start/laravel/overview"]
-        }
+        "ui-kits/react/overview",
+        "ui-kits/react/key-concepts",
+        "ui-kits/react/ui",
+        "ui-kits/react/customize-ui",
+        "ui-kits/react/integration-next-js"
       ]
     },
     {
-      "group": "Integration Methods",
+      "group": "Angular",
       "pages": [
-        {
-          "group": "Chat Widgets",
-          "pages": [
-            "integration-methods/chat-widgets/overview",
-            "integration-methods/chat-widgets/web",
-            "integration-methods/chat-widgets/wordpress",
-            "integration-methods/chat-widgets/custom"
-          ]
-        },
-        {
-          "group": "Chat UI Kits",
-          "pages": [
-            {
-              "group": "React",
-              "pages": [
-                "quick-start/react/overview",
-                "quick-start/react/key-concepts",
-                "quick-start/react/ui",
-                "quick-start/react/customize-ui",
-                "quick-start/react/integration-next-js"
-              ]
-            },
-            "integration-methods/chat-ui-kits/angular",
-            "integration-methods/chat-ui-kits/vue",
-            "integration-methods/chat-ui-kits/react-native",
-            "integration-methods/chat-ui-kits/ios-swift",
-            "integration-methods/chat-ui-kits/android-java",
-            "integration-methods/chat-ui-kits/android-kotlin"
-          ]
-        },
-        {
-          "group": "Chat SDKs",
-          "pages": [
-            {
-              "group": "Javascript SDK",
-              "pages": [
-                {
-                  "group": "Overview",
-                  "pages": [
-                    "integration-methods/chat-sdks/javascript/overview/overview",
-                    "integration-methods/chat-sdks/javascript/overview/key-concepts",
-                    "integration-methods/chat-sdks/javascript/overview/message-structure",
-                    "integration-methods/chat-sdks/javascript/overview/rate-limits"
-                  ]
-                },
-                "integration-methods/chat-sdks/javascript/setup",
-                "integration-methods/chat-sdks/javascript/authentication",
-                "integration-methods/chat-sdks/javascript/messaging",
-                "integration-methods/chat-sdks/javascript/calling",
-                "integration-methods/chat-sdks/javascript/users",
-                "integration-methods/chat-sdks/javascript/uder-presence",
-                "integration-methods/chat-sdks/javascript/groups",
-                "integration-methods/chat-sdks/javascript/bots",
-                "integration-methods/chat-sdks/javascript/webhooks",
-                "integration-methods/chat-sdks/javascript/resources",
-                "integration-methods/chat-sdks/javascript/advanced"
-              ]
-            },
-            "integration-methods/chat-sdks/android",
-            "integration-methods/chat-sdks/ios",
-            "integration-methods/chat-sdks/react-native",
-            "integration-methods/chat-sdks/ionic-cordova-capacitor",
-            "integration-methods/chat-sdks/flutter"
-          ]
-        }
+        "ui-kits/angular/overview",
+        "ui-kits/angular/ui-components"
       ]
     },
     {
-      "group": "Extensions",
+      "group": "Vue",
       "pages": [
-        {
-          "group": "User Experience",
-          "pages": [
-            "extensions/user-experience/pin-message",
-            "extensions/user-experience/bitly",
-            "extensions/user-experience/avatars",
-            "extensions/user-experience/message-shortcuts",
-            "extensions/user-experience/link-preview",
-            "extensions/user-experience/rich-media-preview",
-            "extensions/user-experience/save-message",
-            "extensions/user-experience/thumbnail-generation",
-            "extensions/user-experience/tiny-url",
-            "extensions/user-experience/voice-transcription"
-          ]
-        },
-        {
-          "group": "User Engagement",
-          "pages": [
-            "extensions/user-engagement/email-replies",
-            "extensions/user-engagement/polls",
-            "extensions/user-engagement/gfycat",
-            "extensions/user-engagement/giphy",
-            "extensions/user-engagement/mentions",
-            "extensions/user-engagement/message-translation",
-            "extensions/user-engagement/reactions",
-            "extensions/user-engagement/smart-reply",
-            "extensions/user-engagement/stickers",
-            "extensions/user-engagement/stipop",
-            "extensions/user-engagement/enor",
-            "extensions/user-engagement/reminders",
-            "extensions/user-engagement/live-streaming"
-          ]
-        },
-        {
-          "group": "Collaboration",
-          "pages": [
-            "extensions/collaboration/collaborative-document",
-            "extensions/collaboration/dollaborative-whiteboard"
-          ]
-        },
-        {
-          "group": "Customer Support",
-          "pages": [
-            "extensions/customer-support/intercom",
-            "extensions/customer-support/chatwoot"
-          ]
-        },
-        {
-          "group": "Live Migration",
-          "pages": ["extensions/live-migration/applozic"]
-        },
-        {
-          "group": "Notifications",
-          "pages": [
-            "extensions/notifications/email-notification",
-            "extensions/notifications/sms-notification",
-            "extensions/notifications/push-notification"
-          ]
-        },
-        {
-          "group": "Moderation",
-          "pages": [
-            "extensions/moderation/slow-down",
-            "extensions/moderation/report-user",
-            "extensions/moderation/report-message",
-            "extensions/moderation/in-flight-message-moderation",
-            "extensions/moderation/image-moderation",
-            "extensions/moderation/virus-and-malaware-scanner",
-            "extensions/moderation/data-masking",
-            "extensions/moderation/profanity-filter",
-            "extensions/moderation/sentiment-analysis",
-            "extensions/moderation/xss-filter"
-          ]
-        },
-        {
-          "group": "Security",
-          "pages": [
-            "extensions/security/disappearing-messages",
-            "extensions/security/end-to-end-encryption"
-          ]
-        }
+        "ui-kits/vue/overview",
+        "ui-kits/vue/ui-components",
+        "ui-kits/vue/customize-ui"
       ]
     },
     {
-      "group": "Webhooks",
-      "pages": ["webhooks/overview"]
+      "group": "React Native",
+      "pages": [
+        "ui-kits/react-native/overview",
+        "ui-kits/react-native/ui-components",
+        "ui-kits/react-native/customize-ui"
+      ]
     },
     {
-      "group": "Bots",
-      "pages": ["bots/overview"]
+      "group": "iOS",
+      "pages": [
+        "ui-kits/ios/overview",
+        "ui-kits/ios/ui-components",
+        "ui-kits/ios/customize-ui"
+      ]
     },
     {
-      "group": "On-Premise",
-      "pages": ["on-premise/introduction", "on-premise/docker"]
+      "group": "Android Java",
+      "pages": [
+        "ui-kits/android-java/overview",
+        "ui-kits/android-java/ui-components",
+        "ui-kits/android-java/customize-ui",
+        "ui-kits/android-java/library-structure"
+      ]
+    },
+    {
+      "group": "Android Kotlin",
+      "pages": [
+        "ui-kits/android-kotlin/overview",
+        "ui-kits/android-kotlin/ui-components",
+        "ui-kits/android-kotlin/customize-ui"
+      ]
+    },
+    {
+      "group": "Ionic CordovaCapacitor",
+      "pages": [
+        "sdks/ionic-cordova-capacitor/overview",
+        "sdks/ionic-cordova-capacitor/setup",
+        "sdks/ionic-cordova-capacitor/authentication",
+        "sdks/ionic-cordova-capacitor/messaging",
+        "sdks/ionic-cordova-capacitor/calling",
+        "sdks/ionic-cordova-capacitor/users",
+        "sdks/ionic-cordova-capacitor/user-presence",
+        "sdks/ionic-cordova-capacitor/groups",
+        "sdks/ionic-cordova-capacitor/bots",
+        "sdks/ionic-cordova-capacitor/webhooks",
+        "sdks/ionic-cordova-capacitor/resources",
+        "sdks/ionic-cordova-capacitor/advanced"
+      ]
+    },
+    {
+      "group": "Flutter",
+      "pages": [
+        "sdks/flutter/overview",
+        "sdks/flutter/setup",
+        "sdks/flutter/authentication",
+        "sdks/flutter/messaging",
+        "sdks/flutter/users",
+        "sdks/flutter/user-presence",
+        "sdks/flutter/groups",
+        "sdks/flutter/resources",
+        "sdks/flutter/advanced"
+      ]
+    },
+    {
+      "group": "User Experience",
+      "pages": [
+        "extensions/user-experience/pin-message",
+        "extensions/user-experience/bitly",
+        "extensions/user-experience/avatars",
+        "extensions/user-experience/message-shortcuts",
+        "extensions/user-experience/link-preview",
+        "extensions/user-experience/rich-media-preview",
+        "extensions/user-experience/save-message",
+        "extensions/user-experience/thumbnail-generation",
+        "extensions/user-experience/tiny-url",
+        "extensions/user-experience/voice-transcription"
+      ]
+    },
+    {
+      "group": "User Engagement",
+      "pages": [
+        "extensions/user-engagement/email-replies",
+        "extensions/user-engagement/polls",
+        "extensions/user-engagement/gfycat",
+        "extensions/user-engagement/giphy",
+        "extensions/user-engagement/mentions",
+        "extensions/user-engagement/message-translation",
+        "extensions/user-engagement/reactions",
+        "extensions/user-engagement/smart-reply",
+        "extensions/user-engagement/stickers",
+        "extensions/user-engagement/stipop",
+        "extensions/user-engagement/enor",
+        "extensions/user-engagement/reminders",
+        "extensions/user-engagement/live-streaming"
+      ]
+    },
+    {
+      "group": "Collaboration",
+      "pages": [
+        "extensions/collaboration/collaborative-document",
+        "extensions/collaboration/dollaborative-whiteboard"
+      ]
+    },
+    {
+      "group": "Customer Support",
+      "pages": [
+        "extensions/customer-support/intercom",
+        "extensions/customer-support/chatwoot"
+      ]
+    },
+    {
+      "group": "Live Migration",
+      "pages": ["extensions/live-migration/applozic"]
+    },
+    {
+      "group": "Notifications",
+      "pages": [
+        "extensions/notifications/email-notification",
+        "extensions/notifications/sms-notification",
+        "extensions/notifications/push-notification"
+      ]
+    },
+    {
+      "group": "Moderation",
+      "pages": [
+        "extensions/moderation/slow-down",
+        "extensions/moderation/report-user",
+        "extensions/moderation/report-message",
+        "extensions/moderation/in-flight-message-moderation",
+        "extensions/moderation/image-moderation",
+        "extensions/moderation/virus-and-malaware-scanner",
+        "extensions/moderation/data-masking",
+        "extensions/moderation/profanity-filter",
+        "extensions/moderation/sentiment-analysis",
+        "extensions/moderation/xss-filter"
+      ]
+    },
+    {
+      "group": "Security",
+      "pages": [
+        "extensions/security/disappearing-messages",
+        "extensions/security/end-to-end-encryption"
+      ]
     },
     {
       "group": "Chat APIs",
@@ -448,191 +346,186 @@
       ]
     },
     {
-      "group": "App Management APIs",
+      "group": "App",
       "pages": [
-        {
-          "group": "App",
-          "pages": [
-            "reference/create-app",
-            "reference/list-apps",
-            "reference/delete-app"
-          ]
-        },
-        {
-          "group": "Extensions",
-          "pages": [
-            "reference/enable-disable-extensions",
-            "reference/get_apps-appid-extensions"
-          ]
-        },
-        {
-          "group": "Chat Widgets",
-          "pages": [
-            "reference/create-chatwidget",
-            "reference/update-chatwidget",
-            "reference/list-chatwidgets"
-          ]
-        },
-        {
-          "group": "Extension - Giphy",
-          "pages": [
-            "reference/store-settings-giphy",
-            "reference/update-settings-giphy",
-            "reference/get-settings-giphy",
-            "reference/delete-settings-giphy"
-          ]
-        },
-        {
-          "group": "Extension - XSS Filter",
-          "pages": [
-            "reference/store-settings-xss-filter",
-            "reference/update-settings-xss-filter",
-            "reference/get-settings-xss-filter",
-            "reference/delete-settings-xss-filter"
-          ]
-        },
-        {
-          "group": "Extension - Image Moderation",
-          "pages": [
-            "reference/store-settings-image-moderation",
-            "reference/update-settings-image-moderation",
-            "reference/get-settings-image-moderation",
-            "reference/delete-settings-image-moderation"
-          ]
-        },
-        {
-          "group": "Extension - Report user",
-          "pages": [
-            "reference/store-settings-report-user",
-            "reference/update-settings-report-user",
-            "reference/get-settings-report-user",
-            "reference/delete-settings-report-user"
-          ]
-        },
-        {
-          "group": "Extension - Report message",
-          "pages": [
-            "reference/store-settings-report-message",
-            "reference/update-settings-report-message",
-            "reference/get-settings-report-message",
-            "reference/delete-settings-report-message"
-          ]
-        },
-        {
-          "group": "Extension - Voice transcription",
-          "pages": [
-            "reference/store-settings-voice-transcription",
-            "reference/update-settings-voice-transcription",
-            "reference/get-settings-voice-transcription",
-            "reference/delete-settings-voice-transcription"
-          ]
-        },
-        {
-          "group": "Extension - Stipop",
-          "pages": [
-            "reference/store-settings-stipop",
-            "reference/update-settings-stipop",
-            "reference/get-settings-stipop",
-            "reference/delete-settings-stipop"
-          ]
-        },
-        {
-          "group": "Extension - Sentiment analysis",
-          "pages": [
-            "reference/store-settings-sentiment-analysis",
-            "reference/update-settings-sentiment-analysis",
-            "reference/get-settings-sentiment-analysis",
-            "reference/delete-settings-sentiment-analysis"
-          ]
-        },
-        {
-          "group": "Extension - TinyURL",
-          "pages": [
-            "reference/store-settings-tinyurl",
-            "reference/update-settings-tinyurl",
-            "reference/get-settings-tinyurl",
-            "reference/delete-settings-tinyurl"
-          ]
-        },
-        {
-          "group": "Extension - Intercom",
-          "pages": [
-            "reference/store-settings-intercom",
-            "reference/update-settings-intercom",
-            "reference/get-settings-intercom",
-            "reference/delete-settings-intercom"
-          ]
-        },
-        {
-          "group": "Extension - Bitly",
-          "pages": [
-            "reference/store-settings-bitly",
-            "reference/update-settings-bitly",
-            "reference/get-settings-bitly",
-            "reference/delete-settings-bitly"
-          ]
-        },
-        {
-          "group": "Extension - Rich media preview",
-          "pages": [
-            "reference/store-settings-rich-media",
-            "reference/update-settings-rich-media",
-            "reference/get-settings-rich-media",
-            "reference/delete-settings-rich-media"
-          ]
-        },
-        {
-          "group": "Extension - Virus Malware Scanner",
-          "pages": [
-            "reference/store-settings-virus-malware-scanner",
-            "reference/update-settings-virus-malware-scanner",
-            "reference/get-settings-virus-malware-scanner",
-            "reference/delete-settings-virus-malware-scanner"
-          ]
-        },
-        {
-          "group": "Extension - Video Broadcasting",
-          "pages": [
-            "reference/store-settings-broadcast",
-            "reference/update-settings-broadcast",
-            "reference/get-settings-broadcast",
-            "reference/delete-settings-broadcast"
-          ]
-        },
-        {
-          "group": "Extension - Tenor gifs",
-          "pages": [
-            "reference/post_apps-appid-extensions-gifs-tenor-v1-settings",
-            "reference/put_apps-appid-extensions-gifs-tenor-v1-settings",
-            "reference/get_apps-appid-extensions-gifs-tenor-v1-settings",
-            "reference/delete_apps-appid-extensions-gifs-tenor-v1-settings"
-          ]
-        },
-        {
-          "group": "Extension - In-flight message moderation",
-          "pages": [
-            "reference/post_apps-appid-extensions-human-moderation-v1-settings",
-            "reference/put_apps-appid-extensions-human-moderation-v1-settings",
-            "reference/get_apps-appid-extensions-human-moderation-v1-settings",
-            "reference/delete_apps-appid-extensions-human-moderation-v1-settings"
-          ]
-        },
-        {
-          "group": "Extension - End-to-end encryption",
-          "pages": [
-            "reference/post_apps-appid-extensions-e2ee-v1-settings",
-            "reference/put_apps-appid-extensions-e2ee-v1-settings",
-            "reference/get_apps-appid-extensions-e2ee-v1-settings",
-            "reference/delete_apps-appid-extensions-e2ee-v1-settings"
-          ]
-        },
-        {
-          "group": "Team Management",
-          "pages": [
-            "reference/add-remove-collaborators",
-            "reference/list-collaborators"
-          ]
-        }
+        "reference/create-app",
+        "reference/list-apps",
+        "reference/delete-app"
+      ]
+    },
+    {
+      "group": "Extensions",
+      "pages": [
+        "reference/enable-disable-extensions",
+        "reference/get_apps-appid-extensions"
+      ]
+    },
+    {
+      "group": "Chat Widgets",
+      "pages": [
+        "reference/create-chatwidget",
+        "reference/update-chatwidget",
+        "reference/list-chatwidgets"
+      ]
+    },
+    {
+      "group": "Extension - Giphy",
+      "pages": [
+        "reference/store-settings-giphy",
+        "reference/update-settings-giphy",
+        "reference/get-settings-giphy",
+        "reference/delete-settings-giphy"
+      ]
+    },
+    {
+      "group": "Extension - XSS Filter",
+      "pages": [
+        "reference/store-settings-xss-filter",
+        "reference/update-settings-xss-filter",
+        "reference/get-settings-xss-filter",
+        "reference/delete-settings-xss-filter"
+      ]
+    },
+    {
+      "group": "Extension - Image Moderation",
+      "pages": [
+        "reference/store-settings-image-moderation",
+        "reference/update-settings-image-moderation",
+        "reference/get-settings-image-moderation",
+        "reference/delete-settings-image-moderation"
+      ]
+    },
+    {
+      "group": "Extension - Report user",
+      "pages": [
+        "reference/store-settings-report-user",
+        "reference/update-settings-report-user",
+        "reference/get-settings-report-user",
+        "reference/delete-settings-report-user"
+      ]
+    },
+    {
+      "group": "Extension - Report message",
+      "pages": [
+        "reference/store-settings-report-message",
+        "reference/update-settings-report-message",
+        "reference/get-settings-report-message",
+        "reference/delete-settings-report-message"
+      ]
+    },
+    {
+      "group": "Extension - Voice transcription",
+      "pages": [
+        "reference/store-settings-voice-transcription",
+        "reference/update-settings-voice-transcription",
+        "reference/get-settings-voice-transcription",
+        "reference/delete-settings-voice-transcription"
+      ]
+    },
+    {
+      "group": "Extension - Stipop",
+      "pages": [
+        "reference/store-settings-stipop",
+        "reference/update-settings-stipop",
+        "reference/get-settings-stipop",
+        "reference/delete-settings-stipop"
+      ]
+    },
+    {
+      "group": "Extension - Sentiment analysis",
+      "pages": [
+        "reference/store-settings-sentiment-analysis",
+        "reference/update-settings-sentiment-analysis",
+        "reference/get-settings-sentiment-analysis",
+        "reference/delete-settings-sentiment-analysis"
+      ]
+    },
+    {
+      "group": "Extension - TinyURL",
+      "pages": [
+        "reference/store-settings-tinyurl",
+        "reference/update-settings-tinyurl",
+        "reference/get-settings-tinyurl",
+        "reference/delete-settings-tinyurl"
+      ]
+    },
+    {
+      "group": "Extension - Intercom",
+      "pages": [
+        "reference/store-settings-intercom",
+        "reference/update-settings-intercom",
+        "reference/get-settings-intercom",
+        "reference/delete-settings-intercom"
+      ]
+    },
+    {
+      "group": "Extension - Bitly",
+      "pages": [
+        "reference/store-settings-bitly",
+        "reference/update-settings-bitly",
+        "reference/get-settings-bitly",
+        "reference/delete-settings-bitly"
+      ]
+    },
+    {
+      "group": "Extension - Rich media preview",
+      "pages": [
+        "reference/store-settings-rich-media",
+        "reference/update-settings-rich-media",
+        "reference/get-settings-rich-media",
+        "reference/delete-settings-rich-media"
+      ]
+    },
+    {
+      "group": "Extension - Virus Malware Scanner",
+      "pages": [
+        "reference/store-settings-virus-malware-scanner",
+        "reference/update-settings-virus-malware-scanner",
+        "reference/get-settings-virus-malware-scanner",
+        "reference/delete-settings-virus-malware-scanner"
+      ]
+    },
+    {
+      "group": "Extension - Video Broadcasting",
+      "pages": [
+        "reference/store-settings-broadcast",
+        "reference/update-settings-broadcast",
+        "reference/get-settings-broadcast",
+        "reference/delete-settings-broadcast"
+      ]
+    },
+    {
+      "group": "Extension - Tenor gifs",
+      "pages": [
+        "reference/post_apps-appid-extensions-gifs-tenor-v1-settings",
+        "reference/put_apps-appid-extensions-gifs-tenor-v1-settings",
+        "reference/get_apps-appid-extensions-gifs-tenor-v1-settings",
+        "reference/delete_apps-appid-extensions-gifs-tenor-v1-settings"
+      ]
+    },
+    {
+      "group": "Extension - In-flight message moderation",
+      "pages": [
+        "reference/post_apps-appid-extensions-human-moderation-v1-settings",
+        "reference/put_apps-appid-extensions-human-moderation-v1-settings",
+        "reference/get_apps-appid-extensions-human-moderation-v1-settings",
+        "reference/delete_apps-appid-extensions-human-moderation-v1-settings"
+      ]
+    },
+    {
+      "group": "Extension - End-to-end encryption",
+      "pages": [
+        "reference/post_apps-appid-extensions-e2ee-v1-settings",
+        "reference/put_apps-appid-extensions-e2ee-v1-settings",
+        "reference/get_apps-appid-extensions-e2ee-v1-settings",
+        "reference/delete_apps-appid-extensions-e2ee-v1-settings"
+      ]
+    },
+    {
+      "group": "Team Management",
+      "pages": [
+        "reference/add-remove-collaborators",
+        "reference/list-collaborators"
       ]
     },
     {
