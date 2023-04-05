@@ -54,10 +54,7 @@
     },
     {
       "group": "Angular",
-      "pages": [
-        "ui-kits/angular/overview",
-        "ui-kits/angular/ui-components"
-      ]
+      "pages": ["ui-kits/angular/overview", "ui-kits/angular/ui-components"]
     },
     {
       "group": "Vue",
@@ -98,6 +95,95 @@
         "ui-kits/android-kotlin/overview",
         "ui-kits/android-kotlin/ui-components",
         "ui-kits/android-kotlin/customize-ui"
+      ]
+    },
+    {
+      "group": "JavaScript",
+      "pages": [
+        {
+          "group": "Overview",
+          "pages": [
+            "sdks/javascript/overview/key-concepts",
+            "sdks/javascript/overview/message-structure",
+            "sdks/javascript/overview/rate-limits"
+          ]
+        },
+        "sdks/javascript/setup",
+        {
+          "group": "Authentication",
+          "pages": [
+            "sdks/javascript/authentication/overview",
+            "sdks/javascript/authentication/login-listener"
+          ]
+        },
+        {
+          "group": "Messaging",
+          "pages": [
+            "sdks/javascript/messaging/send",
+            "sdks/javascript/messaging/receive",
+            "sdks/javascript/messaging/additional-filtering",
+            "sdks/javascript/messaging/retrieve-conversations",
+            "sdks/javascript/messaging/threaded",
+            "sdks/javascript/messaging/edit",
+            "sdks/javascript/messaging/delete",
+            "sdks/javascript/messaging/delete-conversation",
+            "sdks/javascript/messaging/typing-indicators",
+            "sdks/javascript/messaging/transient",
+            "sdks/javascript/messaging/delivery"
+          ]
+        },
+        {
+          "group": "Calling",
+          "pages": [
+            "sdks/javascript/calling/direct",
+            "sdks/javascript/calling/default",
+            "sdks/javascript/calling/custom-css",
+            "sdks/javascript/calling/recording",
+            "sdks/javascript/calling/virtual-background",
+            "sdks/javascript/calling/video-view--customisation"
+          ]
+        },
+        {
+          "group": "Users",
+          "pages": [
+            "sdks/javascript/users/retrieve",
+            "sdks/javascript/users/user-management",
+            "sdks/javascript/users/block"
+          ]
+        },
+        "sdks/javascript/user-presence",
+        {
+          "group": "Groups",
+          "pages": [
+            "sdks/javascript/groups/retrieve",
+            "sdks/javascript/groups/create",
+            "sdks/javascript/groups/update",
+            "sdks/javascript/groups/join",
+            "sdks/javascript/groups/leave",
+            "sdks/javascript/groups/delete",
+            "sdks/javascript/groups/retrieve-members",
+            "sdks/javascript/groups/add",
+            "sdks/javascript/groups/ban-kick",
+            "sdks/javascript/groups/change-scopre",
+            "sdks/javascript/groups/transfer-ownership"
+          ]
+        },
+        "sdks/javascript/bots",
+        "sdks/javascript/webhooks",
+        {
+          "group": "Resources",
+          "pages": [
+            "sdks/javascript/resources/all-real-time-listeners",
+            "sdks/javascript/resources/upgrading-from-v2"
+          ]
+        },
+        {
+          "group": "Advanced",
+          "pages": [
+            "sdks/javascript/advanced/connection-status",
+            "sdks/javascript/advanced/managing-web-socket-connections"
+          ]
+        }
       ]
     },
     {
