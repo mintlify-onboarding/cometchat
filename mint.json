@@ -119,6 +119,7 @@
         {
           "group": "Messaging",
           "pages": [
+            "sdks/javascript/messaging/overview",
             "sdks/javascript/messaging/send",
             "sdks/javascript/messaging/receive",
             "sdks/javascript/messaging/additional-filtering",
