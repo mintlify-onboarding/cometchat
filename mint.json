@@ -100,6 +100,7 @@
     {
       "group": "JavaScript",
       "pages": [
+        "sdks/javascript/setup",
         {
           "group": "Overview",
           "pages": [
@@ -108,7 +109,6 @@
             "sdks/javascript/overview/rate-limits"
           ]
         },
-        "sdks/javascript/setup",
         {
           "group": "Authentication",
           "pages": [
