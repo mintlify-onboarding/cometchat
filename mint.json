@@ -136,6 +136,7 @@
         {
           "group": "Calling",
           "pages": [
+            "sdks/javascript/calling/overview",
             "sdks/javascript/calling/direct",
             "sdks/javascript/calling/default",
             "sdks/javascript/calling/custom-css",
